@@ -13,7 +13,6 @@ for y in yaz.values():
 print("языки, которые знают студенты (всего:", len(vy), "):")
 print(sorted(vy))
 
-# Студенты, знающие китайский
 ki = [s for s, y in yaz.items() if "китайский" in y]
 print("\nстуденты, которые знают китайский язык:")
 print(ki)
